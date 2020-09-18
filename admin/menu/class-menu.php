@@ -80,6 +80,10 @@ class WPSEO_Menu implements WPSEO_WordPress_Integration {
 				require_once WPSEO_PATH . 'admin/pages/metas.php';
 				break;
 
+			case 'wpseo_links':
+				require_once WPSEO_PATH . 'admin/pages/links.php';
+				break;
+
 			case 'wpseo_social':
 				require_once WPSEO_PATH . 'admin/pages/social.php';
 				break;
